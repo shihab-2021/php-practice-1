@@ -28,4 +28,15 @@
         echo $value . '<br>';
     }
 
+    echo '<pre>';
+    print_r($arr);
+    var_dump($arr);
+
+    echo '<br>';
+    $associative_arr = array('Mango'=>100, 'Orange'=>150, 'Banana'=>49);
+    foreach($associative_arr as $key => $value)
+    {
+        echo "The value of $key is= $value <br>";
+    }
+
 ?>
